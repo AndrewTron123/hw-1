@@ -8,7 +8,8 @@ next(csv_file)
 print("High Efficency Individuals")
 
 for row in csv_file:
-    efficent = int(row[5])/int(row[4]) 
+
+    efficent = int(row[5])/int(row[4])
     if efficent >= 2:
         print(row[1])
 print()
